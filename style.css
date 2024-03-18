@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin: auto;
+    width: 50%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+body{
+    min-height: 100vh;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    position: sticky; /* Make the navigation sticky */
+    top: 0; /* Stick it to the top of the viewport */
+    z-index: 1000; /* Adjust as needed */
+}
+
+nav ul {
+    position: static; /* This should be static for the sticky behavior to work */
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Distribute items evenly */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+/* nav li:first-child{
+    margin-right: auto;
+}  */
+/* 
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(10px);
+    border: solid darkturquoise 2px;
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+} */
+
