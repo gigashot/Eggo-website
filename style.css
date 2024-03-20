@@ -3,28 +3,48 @@
     padding: 0;
 }
 
-.logo{
-    margin: auto;
-    width: 50%;
-    padding: 0 30px;
-    text-align: center;
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    /* width: 50%;
+    height: 50%; */
 }
+
+div.logo{
+    background-color: rgb(15, 15, 15);
+}
+
+/* .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+} */
 
 
 body{
     min-height: 100vh;
-    background-image: url(laptop.jpg);
+    /* background-image: url(laptop.jpg); */
+    background-color:rgb(34, 34, 34);
     background-size: cover;
     background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     background-color: white;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 5px rgb(150, 150, 150);
     position: sticky; /* Make the navigation sticky */
     top: 0; /* Stick it to the top of the viewport */
     z-index: 1000; /* Adjust as needed */
+
+    font-weight: bold;
+    font-size: x-large;
+
 }
 
 nav ul {
@@ -44,62 +64,42 @@ nav li {
 
 nav a {
     height: 100%;
-    padding: 0 30px;
+    padding:0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
+    justify-content: space-evenly
+    
 }
 
 nav a:hover{
     background-color: #f0f0f0;
 }
 
-/* nav li:first-child{
-    margin-right: auto;
-}  */
-/* 
-.sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: rgba(255,255,255, 0.2);
-    backdrop-filter: blur(10px);
-    border: solid darkturquoise 2px;
-    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.sidebar li{
+ul li{
     width: 100%;
 }
-
-.sidebar a{
+footer{
+    position: static;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    padding: 20px;  
 }
 
-.menu-button{
-    display: none;
+section{
+
+    margin: 100px;
+    padding: 50px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px;
+    border-color: black;
+    box-shadow: 10px;
+    color: whitesmoke;
 }
-
-@media(max-width: 800px){
-    .hideOnMobile{
-        display:none;
-    }
-    .menu-button{
-        display: block;
-    }
-}
-
-@media(max-width: 400px){
-    .sidebar{
-        width: 100%;
-    }
-} */
-
