@@ -13,9 +13,11 @@
     height: 50%; */
 }
 
+
 div.logo{
     background-color: rgb(15, 15, 15);
 }
+
 
 /* .logo{
     display: block;
@@ -80,6 +82,7 @@ nav a:hover{
 ul li{
     width: 100%;
 }
+
 footer{
     position: static;
     left: 0;
