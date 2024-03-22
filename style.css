@@ -1,70 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.img{
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     height: auto;
-    /* width: 50%;
-    height: 50%; */
 }
 
-
-div.logo {
-    width: 100%;
-    background-color: rgb(15, 15, 15);
-    padding: 5%;
-    text-align: center;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
-}
-
-
-/* .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    justify-content: center;
-} */
-
-
-body{
+body {
     min-height: 100vh;
-    /* background-image: url(laptop.jpg); */
-    background-color:rgb(34, 34, 34);
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(34, 34, 34);
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 nav {
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     background-color: #e6e6e6ff;
     box-shadow: 3px 3px 5px rgb(150, 150, 150);
     z-index: 1000;
     font-weight: bold;
     font-size: x-large;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
 }
 
 nav ul {
-    position: static; /* This should be static for the sticky behavior to work */
     width: 100%;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; /* Distribute items evenly */
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    justify-content: space-evenly;
+    padding: 0;
 }
 
 nav li {
@@ -72,43 +46,41 @@ nav li {
 }
 
 nav a {
-    height: 100%;
-    padding:0 30px;
     text-decoration: none;
+    color: black;
+    padding: 0 30px;
     display: flex;
     align-items: center;
-    color: black;
-    justify-content: space-evenly
-    
+    justify-content: space-evenly;
+    height: 100%;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: rgb(207, 207, 207);
 }
 
-ul li{
-    width: 100%;
-}
-
-footer{
-    position: static;
-    left: 0;
-    bottom: 0;
+footer {
     width: 100%;
     background-color: rgb(15, 15, 15);
     color: #e6e6e6ff;
     text-align: center;
-    padding: 20px;  
+    padding: 20px;
 }
 
-
-footer img{
+footer img {
     padding: 2%;
 }
-section{
 
-    margin: 100px;
-    padding: 50px;
+div.logo {
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    padding: 5%;
+    text-align: center;
+}
+
+section {
+    margin: 6%;
+    padding: 2%;
     background-color: gray;
     text-align: center;
     border-radius: 20px;
@@ -118,6 +90,6 @@ section{
     color: #e6e6e6ff;
 }
 
-img{
+img {
     padding: 2%;
 }
