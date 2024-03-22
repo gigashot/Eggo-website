@@ -14,8 +14,13 @@
 }
 
 
-div.logo{
+div.logo {
+    width: 100%;
     background-color: rgb(15, 15, 15);
+    padding: 5%;
+    text-align: center;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
 }
 
 
@@ -38,15 +43,17 @@ body{
 }
 
 nav {
-    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e6e6e6ff;
     box-shadow: 3px 3px 5px rgb(150, 150, 150);
-    position: sticky; /* Make the navigation sticky */
-    top: 0; /* Stick it to the top of the viewport */
-    z-index: 1000; /* Adjust as needed */
-
+    z-index: 1000;
     font-weight: bold;
     font-size: x-large;
-
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
 }
 
 nav ul {
@@ -76,7 +83,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #f0f0f0;
+    background-color: rgb(207, 207, 207);
 }
 
 ul li{
@@ -89,11 +96,15 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: rgb(15, 15, 15);
-    color: white;
+    color: #e6e6e6ff;
     text-align: center;
     padding: 20px;  
 }
 
+
+footer img{
+    padding: 2%;
+}
 section{
 
     margin: 100px;
@@ -104,5 +115,9 @@ section{
     border: 3px;
     border-color: black;
     box-shadow: 10px;
-    color: whitesmoke;
+    color: #e6e6e6ff;
+}
+
+img{
+    padding: 2%;
 }
