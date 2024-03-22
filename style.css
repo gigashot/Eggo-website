@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 
-.img {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
+    padding: 2%;
 }
 
 body {
     min-height: 100vh;
     background-color: rgb(34, 34, 34);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Corbel;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -42,17 +43,16 @@ nav ul {
 }
 
 nav li {
-    height: 50px;
+    flex: 1; /* Make each list item flex-grow to fill the available space */
 }
 
 nav a {
+    font-weight: bold;
     text-decoration: none;
     color: black;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav a:hover {
@@ -69,6 +69,8 @@ footer {
 
 footer img {
     padding: 2%;
+    max-width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 div.logo {
@@ -79,8 +81,8 @@ div.logo {
 }
 
 section {
-    margin: 6%;
-    padding: 2%;
+    margin: 5%;
+    padding: 3%;
     background-color: gray;
     text-align: center;
     border-radius: 20px;
@@ -90,6 +92,15 @@ section {
     color: #e6e6e6ff;
 }
 
+.side-img{
+    padding: 50px;
+}
+
+section img{
+    max-width: 100%;
+}
 img {
     padding: 2%;
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Let the height adjust automatically */
 }
