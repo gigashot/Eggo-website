@@ -75,7 +75,6 @@ footer img {
 
 div.logo {
     width: 100%;
-    background-color: rgb(15, 15, 15);
     padding: 5%;
     text-align: center;
 }
@@ -92,15 +91,41 @@ section {
     color: #e6e6e6ff;
 }
 
-.side-img{
-    padding: 50px;
+section.third-panel{
+    text-align: right;
+    position: relative;
 }
 
-section img{
-    max-width: 100%;
+section.third-panel img {
+    position: absolute;
+    display: block;
+    width: 50%; /* Set the width to 100% to fill the container */
+    
 }
 img {
     padding: 2%;
     width: 100%; /* Set the width to 100% */
     height: auto; /* Let the height adjust automatically */
+}
+main{
+    margin: 5%;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 10px;
+    color: #e6e6e6ff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position:relative;
+}
+main img {
+    max-width: 30%;
+    max-width: 30vh; /* Limiting maximum height to 80% of viewport height */
+}
+
+div.text {
+    margin-left: 5vh;
+    padding: 2%;
+    text-align: top;
+    padding: auto;
 }
