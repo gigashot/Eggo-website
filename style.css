@@ -109,6 +109,25 @@ section img {
     margin-bottom: 0;
 }
 
+main{
+    margin: 5%;
+    background-color: gray;
+    box-shadow: 10px;
+    color: #e6e6e6ff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position:relative;
+}
+main img {
+    max-width: 30%;
+    max-width: 30vh; /* Limiting maximum height to 80% of viewport height */
+}
+.contact{
+    text-align: center;
+    padding: 5vh;
+}
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .logo {
