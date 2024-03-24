@@ -138,6 +138,11 @@ main img {
 section.text{
     font-size: x-large;
 }
+
+.icons{
+    max-width: 10%;
+    height: auto;
+}
 /* scroll animationn */
 .scroll-section {
     opacity: 0;
