@@ -120,6 +120,7 @@ main{
     position:relative;
 }
 main img {
+    left: 0;
     max-width: 30%;
     max-width: 30vh; /* Limiting maximum height to 80% of viewport height */
 }
@@ -127,7 +128,22 @@ main img {
     text-align: center;
     padding: 5vh;
 }
+.contact div{
+    padding: 1vh;
+}
 
+.text{
+    padding: 1vh;
+}
+section.text{
+    font-size: x-large;
+}
+
+/* .about-img{
+    width: 600px;
+    height: auto;
+    padding: 2vh;
+} */
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .logo {
