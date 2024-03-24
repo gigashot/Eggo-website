@@ -138,12 +138,18 @@ main img {
 section.text{
     font-size: x-large;
 }
+/* scroll animationn */
+.scroll-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
 
-/* .about-img{
-    width: 600px;
-    height: auto;
-    padding: 2vh;
-} */
+.scroll-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .logo {
