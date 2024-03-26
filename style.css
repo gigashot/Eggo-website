@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Corbel;
+    font-family: Roboto Slab;
     background-color: rgb(0, 0, 0);
+    /* background-image: "milano-eggo.jpg"; */
     color: #e6e6e6ff;
     overflow-x: hidden;
 }
@@ -73,6 +74,8 @@ footer img {
 section {
     position: relative;
     width: 100%;
+    border: 1%;
+    border-color: white;
 }
 
 section img {
@@ -107,16 +110,23 @@ section img {
     margin-bottom: 0;
 }
 
-main{
-    margin: 5%;
-    background-color: gray;
-    box-shadow: 10px;
+main {
+    margin: 3%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px #888888; /* Adjust the values as needed */
+    border: 5px solid white; /* Specify the border width and style */
     color: #e6e6e6ff;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    position:relative;
+    position: relative;
 }
+
+section.text{
+    border: 3px;
+    border-color: white;
+}
+
 main img {
     left: 0;
     max-width: 30%;
@@ -135,8 +145,12 @@ main img {
 }
 section.text{
     font-size: x-large;
+    padding: 2%;
 }
-
+section.text p{
+    padding-top: 2%;
+    
+}
 .icons{
     max-width: 8vh;
     height: auto;
