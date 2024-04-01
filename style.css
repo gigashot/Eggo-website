@@ -116,7 +116,7 @@ main {
     box-shadow: 10px 10px 5px #888888; /* Adjust the values as needed */
     border: 5px solid white; /* Specify the border width and style */
     color: #e6e6e6ff;
-    display: flex;
+    display: flex; */
     align-items: flex-start;
     justify-content: center;
     position: relative;
@@ -129,8 +129,8 @@ section.text{
 
 main img {
     left: 0;
-    max-width: 30%;
-    max-width: 30vh; 
+    
+    max-width: 40vh; 
 }
 .contact{
     text-align: center;
