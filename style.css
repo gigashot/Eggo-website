@@ -7,7 +7,7 @@
 body {
     font-family: Roboto Slab;
     background-color: rgb(0, 0, 0);
-    /* background-image: "milano-eggo.jpg"; */
+    
     color: #e6e6e6ff;
     overflow-x: hidden;
 }
@@ -113,8 +113,8 @@ section img {
 main {
     margin: 3%;
     background-color: rgb(0, 0, 0);
-    box-shadow: 10px 10px 5px #888888; /* Adjust the values as needed */
-    border: 5px solid white; /* Specify the border width and style */
+    box-shadow: 10px 10px 5px #888888;
+    border: 5px solid white;
     color: #e6e6e6ff;
     display: flex; 
     align-items: flex-start;
